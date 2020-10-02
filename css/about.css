@@ -74,12 +74,13 @@ p {
 /*My styles*/
 
 /*Spacing styles*/
+
 header, .top-content, .middle-content, .bottom-content {
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
-/*header elements styles*/
+/*header content elements styles*/
 
 header nav {
     display: flex;
@@ -106,6 +107,7 @@ header img {
     margin-right: auto;
 }
 
+
 /*top content elements styles*/
 
 .top-content {
@@ -117,7 +119,6 @@ header img {
 }
 
 .top-content .text-container {
-    width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -126,71 +127,41 @@ header img {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.middle-content .text-container img {
+    display: block;
+    width: 100%;
+} 
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.middle-content .text-container {
+    border-bottom: 1px dashed black;
+    width: 45%;
+    padding-bottom: 3em;
+    padding-top: 3em;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content .text-container h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 0;
 }
 
-/*box elements styles*/
-
-#box1 {
-    background: teal;
-}
-
-#box2 {
-    background: gold;
-}
-
-#box3 {
-    background: cadetblue;
-}
-
-#box4 {
-    background: coral;
-}
-
-#box5 {
-    background: crimson;
-}
-
-#box6 {
-    background: forestgreen;
-}
-
-#box7 {
-    background: darkorchid;
-}
-
-#box8 {
-    background: hotpink;
-}
-
-#box9 {
-    background: indigo;
-}
-
-#box10 {
-    background: dodgerblue;
+.middle-content .text-container button {
+    font-size: 110%;
+    margin-top: 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border: 2px solid black;
+    border-radius: 0.5em;
 }
 
 /*bottom content elements styles*/
@@ -208,7 +179,6 @@ header img {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 
 /*footer content elements styles*/
 
