@@ -34,27 +34,67 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Answer:
+
+A semantic element clearly describes its meaning to both the browser and the developer.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Answer:
+
+'display: block' means that the element is displayed as a block, as paragraphs and headers have always been. A block has some whitespace above and below it and tolerates no HTML elements next to it, except when ordered otherwise (by adding a float declaration to another element, for instance).
+
+'display: inline' means that the element is displayed inline, inside the current block on the same line. Only when it's between two blocks does the element form an 'anonymous block', that however has the smallest possible width.
 
 3. What are the 4 areas of the box model?
 
+Answer:
+
+* Margin
+* Border
+* Padding
+* Content
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Answer:
+
+cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+Answer:
+
+Git has such advantages as:
+    1.Performance
+Git performs very strongly and reliably when compared to other version control systems. New code changes can be easily committed, version branches can be effortlessly compared and merged, and code can also be optimized to perform better. Algorithms used in developing Git take the full advantage of the deep knowledge stored within, with regards to the attributes used to create real source code file trees, how files are modified over time and what kind of file access patterns are used to recall code files as and when needed by developers. Git primarily focuses upon the file content itself rather than file names while determining the storage and file version history. Object formats of Git repository files use several combinations of delta encoding and compression techniques to store metadata objects and directory contents.
+
+    2.Security
+Git is designed specially to maintain the integrity of source code. File contents as well as the relationship between file and directories, tags, commits, versions etc. are secured cryptographically using an algorithm called SHA1 which protects the code and change history against accidental as well as malicious damage. You can be sure to have an authentic content history for your source code with Git.
+
+    3.Flexibility
+A key design objective of Git is the kind of flexibility it offers to support several kinds of nonlinear development workflows and its efficiency in handling both small scale and large scale projects as well as protocols. It is uniquely designed to support tagging and branching operations and store each and every activity carried out by the user as an integral part of “change” history. Not all VCSs support this feature.
+
+    4.Wide acceptance
+Git offers the type of performance, functionality, security, and flexibility that most developers and teams need to develop their projects. When compared to other VCS Git is the most widely accepted system owing to its universally accepted usability and performance standards.
+
+    5.Quality open source project
+Git is a widely supported open source project with over ten years of operational history. People maintaining the project are very well matured and possess a long-term vision to meet the long-term needs of users by releasing staged upgrades at regular intervals of time to improve functionality as well as usability. Quality of open source software made available on Git is heavily scrutinized a countless number of times and businesses today depend heavily on Git code quality.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [*] Create a forked copy of this project.
+- [*] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [*] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [*] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [*] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [*] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
@@ -66,30 +106,30 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [*] Build the HTML and CSS to create the missing navigation and header.
+* [*] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [*] box1: `teal`
+* [*] box2: `gold`
+* [*] box3: `cadetblue`
+* [*] box4: `coral`
+* [*] box5: `crimson`
+* [*] box6: `forestgreen`
+* [*] box7: `darkorchid`
+* [*] box8: `hotpink`
+* [*] box9: `indigo`
+* [*] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [*] Copy and paste your home page navigation and header into the about page
+* [*] Update the header image with the about page image
+* [*] Link the `Home` navigation item back to the `index.html` page.
+* [*] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -99,6 +139,6 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
-* [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+* [*] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
+* [*] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
+* [*] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
